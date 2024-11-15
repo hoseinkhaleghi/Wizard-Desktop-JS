@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desktop App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <main class="desktop">
+      <div class="icon" ondblclick="openWindow('Icon 1')">📁 Icon 1</div>
+      <div class="icon" ondblclick="openWindow('Icon 2')">📁 Icon 2</div>
+      <div class="icon" ondblclick="openWindow('Icon 3')">📁 Icon 3</div>
+      <div class="icon" ondblclick="openWindow('Icon 4')">📁 Icon 4</div>
+      <div class="icon" ondblclick="openWindow('Icon 5')">📁 Icon 5</div>
+    </main>
+
+    <section id="windows-container" class="windows-container"></section>
+
+    <footer class="taskbar">
+      <div id="taskbar-buttons" class="taskbar-buttons"></div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
